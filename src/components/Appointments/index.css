@@ -1,0 +1,94 @@
+/* Write your CSS here */
+.background-bg {
+  background-color: #fbc7d4;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-card {
+  margin: 40px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 800px;
+}
+
+.details-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-head {
+  color: #171f46;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.label {
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.input-ele {
+  height: 30px;
+  width: 220px;
+  padding: 10px;
+  margin: 10px 0px 10px 0px;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+}
+
+.add-button {
+  margin-top: 10px;
+  background-color: #8b5cf6;
+  color: white;
+  padding: 8px 10px 8px 10px;
+  border: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.appointment-img {
+  height: 200px;
+}
+
+.mediator-line {
+  margin-top: 20px;
+}
+
+.list-head {
+  font-size: 20px;
+}
+
+.head-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-btn-default {
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.star-btn {
+  color: #8b5cf6;
+  background-color: transparent;
+  border: 1px solid #8b5cf6;
+}
+
+.starred-btn {
+  border: 0px;
+  background-color: #8b5cf6;
+  color: white;
+}
+
+.appointments-card {
+  display: flex;
+  flex-wrap: wrap;
+}
